@@ -37,7 +37,7 @@ const PROJECTS = [
     description:
       "Worked on improving communication between multiparametric monitors and the electronic anesthesia record in a hospital environment.",
     impact:
-      "Supported more reliable intraoperative data capture and helped reduce gaps between bedside monitoring and clinical documentation.",
+      "Supported more reliable intraoperative data capture and improved integration between patient monitors and anesthesia records.",
     tags: ["Medical device integration", "EHR", "XML", "Clinical workflows", "Hospital IT"],
   },
   {
