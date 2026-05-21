@@ -116,7 +116,7 @@ function Experience() {
     <section className="mx-auto max-w-5xl px-6 py-16" id="experience">
       <h2 className="text-4xl font-semibold">Experience</h2>
 
-      <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
+      <div className="mt-8 rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
         <h3 className="text-3xl font-medium">Bioengineering and Healthcare IT experience</h3>
         <p className="mt-2 text-sm text-slate-400">Hospital Italiano de Buenos Aires</p>
 
@@ -140,7 +140,7 @@ function Projects() {
     <section className="mx-auto max-w-5xl px-6 py-16" id="projects">
       <h2 className="text-4xl font-semibold">Selected projects</h2>
 
-      <div className="mt-6 grid gap-6 md:grid-cols-2">
+      <div className="mt-8 grid gap-6 md:grid-cols-2">
         {PROJECTS.map((project) => (
           <ProjectCard key={project.title} project={project} />
         ))}
@@ -154,7 +154,7 @@ function Topics() {
     <section className="mx-auto max-w-5xl px-6 py-16" id="topics">
       <h2 className="text-4xl font-semibold">Topics I care about</h2>
 
-      <div className="mt-6 grid gap-4 md:grid-cols-2">
+      <div className="mt-8 grid gap-4 md:grid-cols-2">
         {TOPICS.map((topic) => (
           <div key={topic} className="rounded-2xl border border-slate-800 bg-slate-900 p-5 text-slate-300">
             {topic}
