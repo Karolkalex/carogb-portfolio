@@ -1,7 +1,7 @@
 const PROFILE = {
   name: "Carolina Guinart Boguslawski",
   email: "carolina@guinart.com.ar",
-  linkedin: "https://www.linkedin.com/in/carolina-guinart-boguslawski/",
+  linkedin: "https://www.linkedin.com/in/carolina-guinart-boguslawski",
   github: "https://github.com/Karolkalex",
 };
 
