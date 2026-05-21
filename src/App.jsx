@@ -105,7 +105,7 @@ function Stats() {
       <div className="mx-auto grid max-w-5xl gap-6 px-6 py-12 md:grid-cols-3">
         <Stat value="8+" label="years of hospital bioengineering experience" />
         <Stat value="Real-time" label="clinical data acquisition and device integration" />
-        <Stat value="Health IT" label="EHR integration, interoperability, and clinical workflows" />
+        <Stat value="Healthcare IT" label="EHR integration, interoperability, and clinical workflows" />
       </div>
     </section>
   );
@@ -114,10 +114,10 @@ function Stats() {
 function Experience() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16" id="experience">
-      <h2 className="text-2xl font-semibold">Experience</h2>
+      <h2 className="text-4xl font-semibold">Experience</h2>
 
       <div className="mt-6 rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
-        <h3 className="text-xl font-medium">Bioengineering and Healthcare IT experience</h3>
+        <h3 className="text-3xl font-medium">Bioengineering and Healthcare IT experience</h3>
         <p className="mt-2 text-sm text-slate-400">Hospital Italiano de Buenos Aires</p>
 
         <p className="mt-4 leading-7 text-slate-300">
@@ -138,7 +138,7 @@ function Experience() {
 function Projects() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16" id="projects">
-      <h2 className="text-2xl font-semibold">Selected projects</h2>
+      <h2 className="text-4xl font-semibold">Selected projects</h2>
 
       <div className="mt-6 grid gap-6 md:grid-cols-2">
         {PROJECTS.map((project) => (
@@ -152,7 +152,7 @@ function Projects() {
 function Topics() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16" id="topics">
-      <h2 className="text-2xl font-semibold">Topics I care about</h2>
+      <h2 className="text-4xl font-semibold">Topics I care about</h2>
 
       <div className="mt-6 grid gap-4 md:grid-cols-2">
         {TOPICS.map((topic) => (
@@ -169,7 +169,7 @@ function Contact() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-16" id="contact">
       <div className="rounded-3xl border border-slate-800 bg-slate-900 p-8">
-        <h2 className="text-2xl font-semibold">Contact</h2>
+        <h2 className="text-4xl font-semibold">Contact</h2>
 
         <p className="mt-4 max-w-2xl text-slate-300">
           I’m interested in healthcare IT, medical device integration, interoperability, digital health, and software roles connected to clinical environments.
@@ -198,7 +198,7 @@ function ProjectCard({ project }) {
   return (
     <article className="rounded-3xl border border-slate-800 bg-slate-900 p-6 shadow-xl">
       <div className="flex items-start justify-between gap-4">
-        <h3 className="text-lg font-medium">{project.title}</h3>
+        <h3 className="text-2xl font-medium">{project.title}</h3>
         <span aria-hidden="true" className="mt-1 text-slate-500">
           ↗
         </span>
