@@ -141,33 +141,53 @@ export default function App() {
     </main>
   );
 }
-
 function Hero() {
   return (
     <section className="mx-auto max-w-5xl px-6 py-20 md:py-24">
-      <p className="mb-4 text-sm uppercase tracking-[0.25em] text-cyan-300">
-        Biomedical Engineering · Healthcare IT · Medical Device Integration
-      </p>
+      <div className="flex flex-col-reverse items-center gap-12 md:flex-row md:items-center md:justify-between">
+        
+        <div className="max-w-3xl">
+          <p className="mb-4 text-sm uppercase tracking-[0.25em] text-cyan-300">
+            Biomedical Engineering · Healthcare IT · Medical Device Integration
+          </p>
 
-      <h1 className="max-w-4xl text-4xl font-semibold leading-tight md:text-6xl">
-        Bridging medical devices, clinical workflows, and healthcare IT
-      </h1>
+          <h1 className="max-w-4xl text-4xl font-semibold leading-tight md:text-6xl">
+            Bridging medical devices, clinical workflows, and healthcare IT
+          </h1>
 
-      <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
-        I’m {PROFILE.shortName}, a biomedical engineering student with hands-on experience in hospital environments, real-time patient data, electronic health records, and medical device integration.
-      </p>
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+            I’m {PROFILE.shortName}, a biomedical engineering student with hands-on experience in hospital environments, real-time patient data, electronic health records, and medical device integration.
+          </p>
 
-      <p className="mt-4 max-w-3xl leading-7 text-slate-400">
-        I like working where technology meets real clinical practice: understanding how devices communicate, how data moves through hospital systems, and how technical decisions affect daily workflows for healthcare teams.
-      </p>
+          <p className="mt-4 max-w-3xl leading-7 text-slate-400">
+            I like working where technology meets real clinical practice: understanding how devices communicate, how data moves through hospital systems, and how technical decisions affect daily workflows for healthcare teams.
+          </p>
 
-      <div className="mt-8 flex flex-wrap gap-3">
-        <a href="#projects" className="rounded-2xl bg-cyan-300 px-5 py-3 text-sm font-medium text-slate-950 hover:bg-cyan-200">
-          View projects
-        </a>
-        <a href="#contact" className="rounded-2xl border border-slate-700 px-5 py-3 text-sm font-medium text-slate-100 hover:border-cyan-300">
-          Contact me
-        </a>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a
+              href="#projects"
+              className="rounded-2xl bg-cyan-300 px-5 py-3 text-sm font-medium text-slate-950 hover:bg-cyan-200"
+            >
+              View projects
+            </a>
+
+            <a
+              href="#contact"
+              className="rounded-2xl border border-slate-700 px-5 py-3 text-sm font-medium text-slate-100 hover:border-cyan-300"
+            >
+              Contact me
+            </a>
+          </div>
+        </div>
+
+        <div className="shrink-0">
+          <img
+            src="/profile.png"
+            alt="Carolina Guinart"
+            className="h-64 w-64 rounded-3xl object-cover border border-slate-800 shadow-2xl md:h-80 md:w-80"
+          />
+        </div>
+
       </div>
     </section>
   );
